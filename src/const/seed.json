@@ -1,0 +1,1802 @@
+[
+  {
+    "vehicle": [
+      {
+        "id": "10bf6693-9b6e-405d-ae8b-457aee9b5e81",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-09T18:34:21.403Z",
+        "updated_at": "2023-08-10T07:29:15.301Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fcb16e40-194a-47a3-ae6e-7bff07e08cd6",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T02:54:22.218Z",
+        "updated_at": "2023-08-09T23:11:01.815Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c1609dbf-05f1-4b66-a0bf-4c2c200108ba",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-09T23:57:30.612Z",
+        "updated_at": "2023-08-09T15:30:13.514Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8b23b5ec-358d-4c1c-9853-f7c374538a95",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T08:11:49.044Z",
+        "updated_at": "2023-08-10T00:39:53.392Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "abbbd196-e497-49c4-9d83-b45840919cda",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T10:15:19.377Z",
+        "updated_at": "2023-08-10T10:43:50.966Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "f34cb7e6-ab36-4603-9492-4d66cf95baf2",
+        "usage_date": "2023-08-09T18:30:40.170Z",
+        "usage_time": "2023-08-09T17:08:22.458Z",
+        "created_at": "2023-08-10T07:39:27.453Z",
+        "updated_at": "2023-08-09T15:38:34.987Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "10bf6693-9b6e-405d-ae8b-457aee9b5e81"
+      },
+      {
+        "id": "7fb329ac-5b36-4be7-b8f7-4183b4bc0cdb",
+        "usage_date": "2023-08-09T20:53:21.111Z",
+        "usage_time": "2023-08-09T15:05:26.221Z",
+        "created_at": "2023-08-10T07:55:18.627Z",
+        "updated_at": "2023-08-10T11:35:37.244Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "abbbd196-e497-49c4-9d83-b45840919cda"
+      },
+      {
+        "id": "5aa94031-a93d-4f0f-8536-0a45040ce1f2",
+        "usage_date": "2023-08-10T02:22:33.561Z",
+        "usage_time": "2023-08-09T13:13:28.667Z",
+        "created_at": "2023-08-09T22:22:01.798Z",
+        "updated_at": "2023-08-10T02:24:03.006Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "10bf6693-9b6e-405d-ae8b-457aee9b5e81"
+      },
+      {
+        "id": "f81493a1-4dbb-4fcc-8b47-65eaaa7caa3e",
+        "usage_date": "2023-08-09T20:02:50.906Z",
+        "usage_time": "2023-08-10T04:40:52.580Z",
+        "created_at": "2023-08-09T21:46:44.423Z",
+        "updated_at": "2023-08-09T17:13:24.114Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "8b23b5ec-358d-4c1c-9853-f7c374538a95"
+      },
+      {
+        "id": "e8b5a0f8-ca94-41de-8603-4851cbb82fd6",
+        "usage_date": "2023-08-10T05:33:14.895Z",
+        "usage_time": "2023-08-09T20:25:10.281Z",
+        "created_at": "2023-08-10T03:58:17.475Z",
+        "updated_at": "2023-08-09T19:43:59.290Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "abbbd196-e497-49c4-9d83-b45840919cda"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "649fd543-e942-4af3-b15e-9b1f94415aaa",
+        "start_time": "2023-08-10T03:26:33.428Z",
+        "end_time": "2023-08-10T11:51:46.977Z",
+        "created_at": "2023-08-10T05:58:49.299Z",
+        "updated_at": "2023-08-09T19:50:37.571Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fcb16e40-194a-47a3-ae6e-7bff07e08cd6"
+      },
+      {
+        "id": "da170d31-f2ee-468f-8979-dab232852b9b",
+        "start_time": "2023-08-10T01:53:17.654Z",
+        "end_time": "2023-08-10T06:44:32.920Z",
+        "created_at": "2023-08-09T16:09:54.172Z",
+        "updated_at": "2023-08-09T14:47:22.210Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "fcb16e40-194a-47a3-ae6e-7bff07e08cd6"
+      },
+      {
+        "id": "03f7dfb4-8746-4a22-9d13-48ef47a95efb",
+        "start_time": "2023-08-10T01:32:12.576Z",
+        "end_time": "2023-08-10T04:09:14.585Z",
+        "created_at": "2023-08-09T12:32:32.613Z",
+        "updated_at": "2023-08-09T18:16:53.046Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c1609dbf-05f1-4b66-a0bf-4c2c200108ba"
+      },
+      {
+        "id": "2fbe42f1-6a39-4f2f-8113-71817a409497",
+        "start_time": "2023-08-09T17:32:02.866Z",
+        "end_time": "2023-08-10T04:11:10.726Z",
+        "created_at": "2023-08-09T13:21:07.981Z",
+        "updated_at": "2023-08-09T20:48:03.390Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c1609dbf-05f1-4b66-a0bf-4c2c200108ba"
+      },
+      {
+        "id": "5b53c29c-2526-4cfe-bfdb-198f3e20eb56",
+        "start_time": "2023-08-10T07:13:22.605Z",
+        "end_time": "2023-08-10T11:37:37.587Z",
+        "created_at": "2023-08-09T16:56:44.540Z",
+        "updated_at": "2023-08-09T21:20:07.604Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "10bf6693-9b6e-405d-ae8b-457aee9b5e81"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "644a1b55-d6f6-45de-b091-05874e605383",
+        "email": "Una.Yost@yahoo.com",
+        "firstName": "Jocelyn",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25888982",
+        "tenantId": null
+      },
+      {
+        "reference": "261bc52a-3d7b-4859-b555-bb896f4fffac",
+        "email": "Alexandria63@gmail.com",
+        "firstName": "Myles",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/537.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c24af67a-45fd-4e4e-a131-aeda13bb6fc9",
+        "email": "Brionna_Kris@yahoo.com",
+        "firstName": "Larue",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5be45c01-5392-40e1-9fb6-7757ae62cb85",
+        "email": "Hilbert75@yahoo.com",
+        "firstName": "Eino",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47120020",
+        "tenantId": null
+      },
+      {
+        "reference": "240697ec-6d40-4f17-82ed-02e6fb8ad286",
+        "email": "Mossie84@gmail.com",
+        "firstName": "Reva",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58047780",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "1b7ba438-a349-4782-9b7b-0842814cfff6",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-10T02:04:50.649Z",
+        "updated_at": "2023-08-10T04:07:56.313Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0848af3e-4c51-4a4c-b14b-86f1a216631f",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T05:02:07.956Z",
+        "updated_at": "2023-08-09T15:37:16.830Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "60c1bf12-089a-4d98-b94b-8294ed4d00f2",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-09T17:51:09.658Z",
+        "updated_at": "2023-08-10T04:18:40.525Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4f29a37b-479f-4995-b0c3-f0e7da026e9e",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T03:22:33.625Z",
+        "updated_at": "2023-08-10T06:52:50.519Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a9613087-30ae-4b05-8844-3f5bab438db9",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T04:47:33.721Z",
+        "updated_at": "2023-08-10T02:21:45.142Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "34872d96-b305-4fbc-a20f-435eb6303059",
+        "usage_date": "2023-08-09T20:20:47.094Z",
+        "usage_time": "2023-08-09T14:45:02.909Z",
+        "created_at": "2023-08-10T01:17:09.200Z",
+        "updated_at": "2023-08-09T18:09:30.925Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1b7ba438-a349-4782-9b7b-0842814cfff6"
+      },
+      {
+        "id": "3d5f5ba8-8ce8-4594-8ae4-39ec4caef942",
+        "usage_date": "2023-08-09T20:14:27.556Z",
+        "usage_time": "2023-08-09T21:14:00.169Z",
+        "created_at": "2023-08-09T22:59:26.382Z",
+        "updated_at": "2023-08-10T06:09:16.191Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9613087-30ae-4b05-8844-3f5bab438db9"
+      },
+      {
+        "id": "bf6926e9-9685-4739-9bcc-0ed99a61701e",
+        "usage_date": "2023-08-09T20:33:13.233Z",
+        "usage_time": "2023-08-09T13:30:55.508Z",
+        "created_at": "2023-08-09T13:56:14.413Z",
+        "updated_at": "2023-08-10T08:27:11.792Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9613087-30ae-4b05-8844-3f5bab438db9"
+      },
+      {
+        "id": "10ecb16d-af0d-4d58-b3a7-92091b301527",
+        "usage_date": "2023-08-10T04:45:03.462Z",
+        "usage_time": "2023-08-10T03:01:53.932Z",
+        "created_at": "2023-08-10T10:58:27.032Z",
+        "updated_at": "2023-08-09T23:29:43.392Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1b7ba438-a349-4782-9b7b-0842814cfff6"
+      },
+      {
+        "id": "a7ee601e-a0a5-4ec1-94cd-e1c2cdb10a3e",
+        "usage_date": "2023-08-10T10:56:52.792Z",
+        "usage_time": "2023-08-09T19:07:50.338Z",
+        "created_at": "2023-08-10T04:30:12.690Z",
+        "updated_at": "2023-08-10T05:03:25.300Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4f29a37b-479f-4995-b0c3-f0e7da026e9e"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9531f3c9-fd09-4d80-aae4-9116df9bdc6c",
+        "start_time": "2023-08-09T16:56:00.785Z",
+        "end_time": "2023-08-09T15:37:57.769Z",
+        "created_at": "2023-08-09T15:44:57.858Z",
+        "updated_at": "2023-08-10T07:05:08.643Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4f29a37b-479f-4995-b0c3-f0e7da026e9e"
+      },
+      {
+        "id": "269a1071-8d9f-4f41-b41a-723d0d630c05",
+        "start_time": "2023-08-10T04:31:14.562Z",
+        "end_time": "2023-08-10T07:14:00.162Z",
+        "created_at": "2023-08-09T14:44:13.139Z",
+        "updated_at": "2023-08-09T13:29:14.873Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9613087-30ae-4b05-8844-3f5bab438db9"
+      },
+      {
+        "id": "2db9a656-b33e-4794-a588-6786ae71cb0c",
+        "start_time": "2023-08-09T23:23:50.741Z",
+        "end_time": "2023-08-10T03:07:38.493Z",
+        "created_at": "2023-08-09T20:29:26.308Z",
+        "updated_at": "2023-08-10T03:18:47.713Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "60c1bf12-089a-4d98-b94b-8294ed4d00f2"
+      },
+      {
+        "id": "8e3ce19e-57e6-4fa6-b739-fe20f912aa28",
+        "start_time": "2023-08-10T10:03:13.065Z",
+        "end_time": "2023-08-09T16:26:12.311Z",
+        "created_at": "2023-08-09T16:55:09.754Z",
+        "updated_at": "2023-08-10T08:20:50.503Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4f29a37b-479f-4995-b0c3-f0e7da026e9e"
+      },
+      {
+        "id": "625c4cce-3b1e-4347-ae8a-5d94916e2eb5",
+        "start_time": "2023-08-09T19:47:39.422Z",
+        "end_time": "2023-08-09T14:11:51.143Z",
+        "created_at": "2023-08-09T13:10:21.319Z",
+        "updated_at": "2023-08-10T05:59:39.151Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a9613087-30ae-4b05-8844-3f5bab438db9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1cd7fdd6-128d-4bff-9d2d-50d83074eb1b",
+        "email": "Rebekah61@gmail.com",
+        "firstName": "Viola",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44f01eec-7bde-44f5-a3f8-ee9622445215",
+        "email": "Earline.Krajcik@yahoo.com",
+        "firstName": "Royce",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87891830",
+        "tenantId": null
+      },
+      {
+        "reference": "6a625dc3-0a2a-4f13-bf86-85805d1d2aa4",
+        "email": "Gustave.Bahringer@gmail.com",
+        "firstName": "Aditya",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a20cb9f-77ac-4174-9902-fabfe505fba5",
+        "email": "Kade.Hoeger@gmail.com",
+        "firstName": "Keshaun",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33874233",
+        "tenantId": null
+      },
+      {
+        "reference": "beb47a48-9575-40c4-8b94-295d5a8e2f86",
+        "email": "Beverly_Mante61@yahoo.com",
+        "firstName": "Dandre",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/704.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "07c41eda-0a1a-474f-be20-d7ac654c7cfa",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-10T00:28:35.050Z",
+        "updated_at": "2023-08-09T19:24:14.007Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "627e635c-6e61-4ff7-a154-802c606fa978",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-09T23:30:33.763Z",
+        "updated_at": "2023-08-09T16:32:24.373Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "3f96747e-374f-4a3f-9565-811a374aba89",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-09T12:30:53.230Z",
+        "updated_at": "2023-08-10T09:14:19.446Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5c942997-0617-45d5-8289-431ff0004d1b",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T06:20:11.257Z",
+        "updated_at": "2023-08-10T01:57:38.050Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d126f9cf-690a-404f-abb3-1c9dd5c43a12",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T08:14:45.406Z",
+        "updated_at": "2023-08-10T05:10:43.210Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "9f774e97-2f04-49f7-9a33-f241b856cc2b",
+        "usage_date": "2023-08-10T06:07:13.090Z",
+        "usage_time": "2023-08-09T12:45:27.762Z",
+        "created_at": "2023-08-10T09:06:31.596Z",
+        "updated_at": "2023-08-09T23:53:06.944Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3f96747e-374f-4a3f-9565-811a374aba89"
+      },
+      {
+        "id": "e6670352-7734-4f83-b74d-e89ba7463666",
+        "usage_date": "2023-08-09T22:50:26.280Z",
+        "usage_time": "2023-08-09T23:25:57.891Z",
+        "created_at": "2023-08-09T12:36:43.132Z",
+        "updated_at": "2023-08-09T22:50:18.830Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "d126f9cf-690a-404f-abb3-1c9dd5c43a12"
+      },
+      {
+        "id": "df309d37-4616-4739-97e7-c0124697f02a",
+        "usage_date": "2023-08-09T13:02:16.518Z",
+        "usage_time": "2023-08-10T08:49:26.192Z",
+        "created_at": "2023-08-09T20:55:27.945Z",
+        "updated_at": "2023-08-10T11:06:21.014Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3f96747e-374f-4a3f-9565-811a374aba89"
+      },
+      {
+        "id": "771a7471-839d-4c31-8b38-54f5200a029f",
+        "usage_date": "2023-08-10T07:23:59.598Z",
+        "usage_time": "2023-08-09T21:47:00.508Z",
+        "created_at": "2023-08-09T21:23:31.348Z",
+        "updated_at": "2023-08-09T20:02:29.253Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5c942997-0617-45d5-8289-431ff0004d1b"
+      },
+      {
+        "id": "8b830d9c-6136-4608-a0ca-add9eff780f8",
+        "usage_date": "2023-08-09T23:36:50.975Z",
+        "usage_time": "2023-08-09T18:13:36.159Z",
+        "created_at": "2023-08-10T05:43:27.161Z",
+        "updated_at": "2023-08-10T05:10:06.827Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "3f96747e-374f-4a3f-9565-811a374aba89"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "701ade17-3bf4-447c-9326-c319d7297797",
+        "start_time": "2023-08-10T00:14:02.183Z",
+        "end_time": "2023-08-09T22:00:13.416Z",
+        "created_at": "2023-08-09T23:56:25.724Z",
+        "updated_at": "2023-08-09T17:54:08.489Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5c942997-0617-45d5-8289-431ff0004d1b"
+      },
+      {
+        "id": "b467aa5e-04e9-4bef-aa34-e1109962d553",
+        "start_time": "2023-08-10T09:10:57.754Z",
+        "end_time": "2023-08-10T08:29:21.719Z",
+        "created_at": "2023-08-10T05:38:51.042Z",
+        "updated_at": "2023-08-09T22:56:33.459Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "627e635c-6e61-4ff7-a154-802c606fa978"
+      },
+      {
+        "id": "e594f45b-d4b6-44d0-a598-f024fa8c0158",
+        "start_time": "2023-08-09T20:29:12.053Z",
+        "end_time": "2023-08-09T22:46:04.958Z",
+        "created_at": "2023-08-09T23:05:59.819Z",
+        "updated_at": "2023-08-09T22:45:22.713Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07c41eda-0a1a-474f-be20-d7ac654c7cfa"
+      },
+      {
+        "id": "8fadf72c-33ac-49a8-a61c-044a66868239",
+        "start_time": "2023-08-09T21:31:09.140Z",
+        "end_time": "2023-08-10T06:47:39.248Z",
+        "created_at": "2023-08-09T14:19:46.755Z",
+        "updated_at": "2023-08-10T12:10:51.018Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07c41eda-0a1a-474f-be20-d7ac654c7cfa"
+      },
+      {
+        "id": "0f466be1-c637-42b2-808e-c639ce8beeae",
+        "start_time": "2023-08-09T16:51:12.260Z",
+        "end_time": "2023-08-09T12:42:01.287Z",
+        "created_at": "2023-08-09T23:57:21.040Z",
+        "updated_at": "2023-08-10T02:47:26.892Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "07c41eda-0a1a-474f-be20-d7ac654c7cfa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b451d498-3744-4c99-827d-40a828c683ea",
+        "email": "Jennifer.Wilkinson@yahoo.com",
+        "firstName": "Mara",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51193787",
+        "tenantId": null
+      },
+      {
+        "reference": "59a94455-0c68-4c0c-8595-7ffb620b9eb0",
+        "email": "Camilla31@hotmail.com",
+        "firstName": "Ozella",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1111.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbde816e-49c2-461d-9890-3fe4ab578667",
+        "email": "Maybell.Cronin23@gmail.com",
+        "firstName": "Nya",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82883828",
+        "tenantId": null
+      },
+      {
+        "reference": "2e6ae1c3-4428-43e6-b3f7-79ee60c1bc2b",
+        "email": "Jerel61@gmail.com",
+        "firstName": "Michael",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18398941",
+        "tenantId": null
+      },
+      {
+        "reference": "b60398f3-14b4-4cb6-b9cb-2e3487501782",
+        "email": "Bud.Wiza15@gmail.com",
+        "firstName": "Godfrey",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57711623",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "5100fdd9-f4b3-4454-969f-325485f4132b",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-10T10:58:38.855Z",
+        "updated_at": "2023-08-10T00:12:46.020Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e6c4fa51-450d-469c-b338-bf25c3fe4e38",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T01:35:47.886Z",
+        "updated_at": "2023-08-09T13:00:28.534Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5dac96a9-7e36-4ffe-9571-04ccf62a41f4",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-10T01:57:36.395Z",
+        "updated_at": "2023-08-09T20:19:53.094Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a1d745c1-8058-4e7d-966e-ec50ba5b145d",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T05:11:00.743Z",
+        "updated_at": "2023-08-09T21:42:21.033Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9d7fa382-4aa2-4efd-ab66-4b35ae3278d9",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T01:41:27.486Z",
+        "updated_at": "2023-08-09T18:36:04.080Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "3846850e-a435-4bae-b8ac-fcb83e24ddf8",
+        "usage_date": "2023-08-10T06:51:14.480Z",
+        "usage_time": "2023-08-09T13:52:35.765Z",
+        "created_at": "2023-08-09T22:24:03.709Z",
+        "updated_at": "2023-08-09T12:17:18.771Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5100fdd9-f4b3-4454-969f-325485f4132b"
+      },
+      {
+        "id": "f7b15fc7-a031-4653-9b83-9c475aa6b8a3",
+        "usage_date": "2023-08-09T16:32:12.210Z",
+        "usage_time": "2023-08-09T14:01:30.443Z",
+        "created_at": "2023-08-09T13:30:52.310Z",
+        "updated_at": "2023-08-10T04:25:43.333Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5100fdd9-f4b3-4454-969f-325485f4132b"
+      },
+      {
+        "id": "7e0bac4a-61cb-458f-b63f-6d3e529b40da",
+        "usage_date": "2023-08-09T14:07:19.937Z",
+        "usage_time": "2023-08-10T07:01:43.961Z",
+        "created_at": "2023-08-10T06:52:54.020Z",
+        "updated_at": "2023-08-09T19:56:32.483Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a1d745c1-8058-4e7d-966e-ec50ba5b145d"
+      },
+      {
+        "id": "1df91f88-179d-4421-8c30-cb50ab42b608",
+        "usage_date": "2023-08-09T21:24:01.930Z",
+        "usage_time": "2023-08-09T12:17:23.082Z",
+        "created_at": "2023-08-09T17:32:54.686Z",
+        "updated_at": "2023-08-10T03:38:39.324Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5100fdd9-f4b3-4454-969f-325485f4132b"
+      },
+      {
+        "id": "74c16258-34ea-4af6-9345-d5444af1789a",
+        "usage_date": "2023-08-09T13:57:57.027Z",
+        "usage_time": "2023-08-09T16:14:55.499Z",
+        "created_at": "2023-08-10T07:23:20.282Z",
+        "updated_at": "2023-08-10T10:25:53.939Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d7fa382-4aa2-4efd-ab66-4b35ae3278d9"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "dbb11ec2-7ed3-4e34-930a-bbef58145398",
+        "start_time": "2023-08-09T13:29:51.491Z",
+        "end_time": "2023-08-09T14:42:03.380Z",
+        "created_at": "2023-08-10T10:08:55.571Z",
+        "updated_at": "2023-08-10T08:44:23.911Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e6c4fa51-450d-469c-b338-bf25c3fe4e38"
+      },
+      {
+        "id": "e809ded4-2c0a-42f9-81b0-6d1e0eec680e",
+        "start_time": "2023-08-09T18:42:32.016Z",
+        "end_time": "2023-08-10T09:04:32.738Z",
+        "created_at": "2023-08-10T08:55:26.077Z",
+        "updated_at": "2023-08-09T22:01:49.807Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "5100fdd9-f4b3-4454-969f-325485f4132b"
+      },
+      {
+        "id": "60c68017-c125-4f7b-bb71-5c4ebf123502",
+        "start_time": "2023-08-10T08:55:55.976Z",
+        "end_time": "2023-08-10T04:47:36.694Z",
+        "created_at": "2023-08-09T12:32:00.279Z",
+        "updated_at": "2023-08-10T11:57:39.091Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e6c4fa51-450d-469c-b338-bf25c3fe4e38"
+      },
+      {
+        "id": "fee480ec-94dd-44ec-b8a0-78e57807a336",
+        "start_time": "2023-08-10T10:24:36.155Z",
+        "end_time": "2023-08-10T05:29:34.981Z",
+        "created_at": "2023-08-09T14:27:16.713Z",
+        "updated_at": "2023-08-10T08:25:32.074Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e6c4fa51-450d-469c-b338-bf25c3fe4e38"
+      },
+      {
+        "id": "7005aef3-4cb6-4bae-9bac-e6a28e3238c0",
+        "start_time": "2023-08-10T03:51:35.669Z",
+        "end_time": "2023-08-10T00:42:55.330Z",
+        "created_at": "2023-08-09T19:25:23.951Z",
+        "updated_at": "2023-08-09T17:56:09.514Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a1d745c1-8058-4e7d-966e-ec50ba5b145d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4742f772-7d04-4e59-817d-98f44ee77b7a",
+        "email": "Vivien_Bayer@yahoo.com",
+        "firstName": "Bethany",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d3525fa-c1e7-4fe4-a0b2-22a0fa32f2df",
+        "email": "Nicklaus.Bruen13@gmail.com",
+        "firstName": "Raul",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df53e448-597e-48fc-b5db-da43b7764958",
+        "email": "Daren54@hotmail.com",
+        "firstName": "Emiliano",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b90e1bf9-85d7-4fb5-9621-522e8e7b6bc3",
+        "email": "Eric29@yahoo.com",
+        "firstName": "Beryl",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7046b53e-a142-4639-821d-5102f94f5389",
+        "email": "Kathryn23@hotmail.com",
+        "firstName": "Logan",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/145.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "4b0a5be7-7dd6-4f17-8dc5-323f735486a2",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-09T15:28:34.241Z",
+        "updated_at": "2023-08-09T12:26:52.422Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ab5c4f-2a96-4c35-b7d1-440bc2bf379f",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-09T12:44:11.516Z",
+        "updated_at": "2023-08-10T05:42:27.480Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f11c456f-83ff-412b-8cd1-f088677f17c8",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-09T22:22:59.550Z",
+        "updated_at": "2023-08-10T05:22:23.202Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "35940e5a-89cf-417a-8f7a-57a61a1306d3",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-09T15:42:02.309Z",
+        "updated_at": "2023-08-10T02:39:09.169Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e8a0bf35-26f3-4bdd-987e-808e09161f5f",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T02:20:53.594Z",
+        "updated_at": "2023-08-10T07:25:29.086Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "516649bf-24e2-4ac8-8613-49d760bb6f8b",
+        "usage_date": "2023-08-10T01:40:56.194Z",
+        "usage_time": "2023-08-10T03:03:40.621Z",
+        "created_at": "2023-08-10T03:31:59.213Z",
+        "updated_at": "2023-08-10T10:42:01.017Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e8a0bf35-26f3-4bdd-987e-808e09161f5f"
+      },
+      {
+        "id": "33f2f28c-7760-4b84-9ef1-fdcd7c325aa8",
+        "usage_date": "2023-08-10T05:52:04.371Z",
+        "usage_time": "2023-08-10T02:25:17.491Z",
+        "created_at": "2023-08-09T12:46:06.854Z",
+        "updated_at": "2023-08-10T04:09:30.776Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e8a0bf35-26f3-4bdd-987e-808e09161f5f"
+      },
+      {
+        "id": "e7a03fca-094f-46c0-8f4a-a8adfa206289",
+        "usage_date": "2023-08-10T01:30:20.291Z",
+        "usage_time": "2023-08-09T18:31:42.370Z",
+        "created_at": "2023-08-10T00:20:27.327Z",
+        "updated_at": "2023-08-09T15:24:09.470Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4b0a5be7-7dd6-4f17-8dc5-323f735486a2"
+      },
+      {
+        "id": "3a1bb5ae-f4e3-4c3f-9485-104e8d0570bc",
+        "usage_date": "2023-08-09T13:01:52.087Z",
+        "usage_time": "2023-08-10T07:45:17.764Z",
+        "created_at": "2023-08-09T20:56:54.902Z",
+        "updated_at": "2023-08-09T23:24:02.925Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e8a0bf35-26f3-4bdd-987e-808e09161f5f"
+      },
+      {
+        "id": "0de3486b-ed8a-47d6-9113-19c2be640a9b",
+        "usage_date": "2023-08-10T03:21:58.130Z",
+        "usage_time": "2023-08-09T18:40:19.599Z",
+        "created_at": "2023-08-10T03:24:00.459Z",
+        "updated_at": "2023-08-09T21:38:19.282Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "35940e5a-89cf-417a-8f7a-57a61a1306d3"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9a521376-f691-4749-b75a-527341f3d51d",
+        "start_time": "2023-08-09T16:42:20.618Z",
+        "end_time": "2023-08-09T22:43:29.061Z",
+        "created_at": "2023-08-10T10:20:38.408Z",
+        "updated_at": "2023-08-10T11:26:49.793Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a0ab5c4f-2a96-4c35-b7d1-440bc2bf379f"
+      },
+      {
+        "id": "eccc9476-78da-4a72-8c22-00bc2c386c4d",
+        "start_time": "2023-08-09T23:37:54.334Z",
+        "end_time": "2023-08-09T15:07:14.492Z",
+        "created_at": "2023-08-09T16:40:10.822Z",
+        "updated_at": "2023-08-09T22:29:15.829Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "35940e5a-89cf-417a-8f7a-57a61a1306d3"
+      },
+      {
+        "id": "df52c28e-b232-4143-a32a-314e29b001e5",
+        "start_time": "2023-08-10T09:51:44.204Z",
+        "end_time": "2023-08-09T19:36:07.280Z",
+        "created_at": "2023-08-10T01:18:05.006Z",
+        "updated_at": "2023-08-10T01:46:14.325Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "f11c456f-83ff-412b-8cd1-f088677f17c8"
+      },
+      {
+        "id": "73e194ec-6196-4eb0-8a9a-141b351d4d75",
+        "start_time": "2023-08-09T16:45:27.606Z",
+        "end_time": "2023-08-10T12:11:11.364Z",
+        "created_at": "2023-08-10T05:44:17.340Z",
+        "updated_at": "2023-08-09T23:50:47.567Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "35940e5a-89cf-417a-8f7a-57a61a1306d3"
+      },
+      {
+        "id": "5f74e712-2370-4ef3-b327-4fdf700c5bf8",
+        "start_time": "2023-08-10T01:40:03.561Z",
+        "end_time": "2023-08-09T17:38:51.104Z",
+        "created_at": "2023-08-09T16:39:28.160Z",
+        "updated_at": "2023-08-10T10:18:39.687Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a0ab5c4f-2a96-4c35-b7d1-440bc2bf379f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ff0ab27-ad44-46e6-acf9-8ef2ce8f685c",
+        "email": "Trey_Rippin40@hotmail.com",
+        "firstName": "Jaida",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/538.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58b6a580-19a9-4406-88fa-cfee4c1ed708",
+        "email": "Kelsie_Batz55@hotmail.com",
+        "firstName": "Raphael",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21b1ad06-8fca-4682-8f03-a6bab764a616",
+        "email": "Aubrey_McDermott@yahoo.com",
+        "firstName": "Titus",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/546.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aab44d1e-ed03-46c3-ac00-6ba7ba473976",
+        "email": "Ervin39@yahoo.com",
+        "firstName": "Herbert",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28957266",
+        "tenantId": null
+      },
+      {
+        "reference": "2465e19c-0369-4445-ba75-a3794c7a943f",
+        "email": "Freda67@hotmail.com",
+        "firstName": "Trent",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/484.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "116d05a6-55f7-44fd-a63c-7daf3cf54441",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-09T19:21:26.479Z",
+        "updated_at": "2023-08-09T19:16:02.346Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0c6f47c6-1977-41db-8509-682538f33e20",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T03:53:36.409Z",
+        "updated_at": "2023-08-10T03:09:30.896Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a2506bd5-035f-471c-9c78-9e53b4063483",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-10T06:37:31.588Z",
+        "updated_at": "2023-08-10T10:06:07.692Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6b463f0f-8f03-4276-9721-55a52019731b",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T09:11:47.247Z",
+        "updated_at": "2023-08-09T21:57:47.032Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c425c199-4e42-4633-a31f-c2c21ebebde9",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T00:37:59.241Z",
+        "updated_at": "2023-08-10T04:01:05.368Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "921ab41b-c3b7-498a-95e4-70c0e0293b1d",
+        "usage_date": "2023-08-10T04:51:29.027Z",
+        "usage_time": "2023-08-09T18:27:23.105Z",
+        "created_at": "2023-08-09T15:43:58.934Z",
+        "updated_at": "2023-08-10T07:33:29.176Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c425c199-4e42-4633-a31f-c2c21ebebde9"
+      },
+      {
+        "id": "27716019-f3a7-4df2-be06-70deeb0d6bd2",
+        "usage_date": "2023-08-09T13:10:48.789Z",
+        "usage_time": "2023-08-09T18:07:11.054Z",
+        "created_at": "2023-08-10T00:34:38.502Z",
+        "updated_at": "2023-08-10T03:03:11.963Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c425c199-4e42-4633-a31f-c2c21ebebde9"
+      },
+      {
+        "id": "dbab327b-fa3f-4fef-b40b-0ef710f2fc3d",
+        "usage_date": "2023-08-09T19:39:55.124Z",
+        "usage_time": "2023-08-09T23:23:05.193Z",
+        "created_at": "2023-08-09T21:22:59.415Z",
+        "updated_at": "2023-08-10T09:10:47.593Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6b463f0f-8f03-4276-9721-55a52019731b"
+      },
+      {
+        "id": "983f5bdc-fd95-4282-8ee4-d11c02adc132",
+        "usage_date": "2023-08-09T17:58:32.202Z",
+        "usage_time": "2023-08-10T10:29:10.723Z",
+        "created_at": "2023-08-10T04:28:02.003Z",
+        "updated_at": "2023-08-10T04:13:41.636Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c425c199-4e42-4633-a31f-c2c21ebebde9"
+      },
+      {
+        "id": "305e3be3-f1f3-479b-9fb6-4bb95cb5d06f",
+        "usage_date": "2023-08-10T00:35:00.774Z",
+        "usage_time": "2023-08-10T02:05:46.904Z",
+        "created_at": "2023-08-09T16:28:49.371Z",
+        "updated_at": "2023-08-10T11:56:40.325Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a2506bd5-035f-471c-9c78-9e53b4063483"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "5ce0068f-91ae-4179-ab6d-5afc60c00128",
+        "start_time": "2023-08-10T07:57:54.752Z",
+        "end_time": "2023-08-09T19:07:50.596Z",
+        "created_at": "2023-08-09T16:29:16.063Z",
+        "updated_at": "2023-08-10T02:40:21.211Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6b463f0f-8f03-4276-9721-55a52019731b"
+      },
+      {
+        "id": "0e37e5bb-6a77-4fae-a200-f81c66b70901",
+        "start_time": "2023-08-10T01:55:06.764Z",
+        "end_time": "2023-08-10T08:04:37.876Z",
+        "created_at": "2023-08-10T12:07:48.629Z",
+        "updated_at": "2023-08-10T05:27:29.738Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "c425c199-4e42-4633-a31f-c2c21ebebde9"
+      },
+      {
+        "id": "aedca4fe-0e95-40a2-9208-383b4f98e839",
+        "start_time": "2023-08-09T21:18:15.988Z",
+        "end_time": "2023-08-09T21:07:01.476Z",
+        "created_at": "2023-08-10T05:53:17.226Z",
+        "updated_at": "2023-08-09T17:10:03.257Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0c6f47c6-1977-41db-8509-682538f33e20"
+      },
+      {
+        "id": "d327fd18-a05d-4cb5-b98c-44d970e85402",
+        "start_time": "2023-08-09T23:32:19.808Z",
+        "end_time": "2023-08-10T02:09:31.515Z",
+        "created_at": "2023-08-09T19:46:38.322Z",
+        "updated_at": "2023-08-10T10:10:35.381Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "6b463f0f-8f03-4276-9721-55a52019731b"
+      },
+      {
+        "id": "d1fecba3-3df2-4757-a514-792dbc73692f",
+        "start_time": "2023-08-09T16:42:37.490Z",
+        "end_time": "2023-08-09T17:38:45.166Z",
+        "created_at": "2023-08-09T18:48:59.892Z",
+        "updated_at": "2023-08-10T02:18:58.524Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a2506bd5-035f-471c-9c78-9e53b4063483"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5a47486d-de13-4cb2-9df8-0f1a896e3945",
+        "email": "Laury.Roob83@hotmail.com",
+        "firstName": "Raul",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/338.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7bf032c9-b0b4-40c3-b58c-e111f6958026",
+        "email": "Pansy13@gmail.com",
+        "firstName": "Einar",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39931507",
+        "tenantId": null
+      },
+      {
+        "reference": "1ed5b0a5-ec43-4895-bd6b-c21128b83f40",
+        "email": "Ardella.Spencer@gmail.com",
+        "firstName": "Zack",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78977990",
+        "tenantId": null
+      },
+      {
+        "reference": "7e5db7df-e639-43a1-8d18-c7b3738924c2",
+        "email": "Clara69@gmail.com",
+        "firstName": "Donnie",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59452058",
+        "tenantId": null
+      },
+      {
+        "reference": "84048264-4ff9-4ec2-ba18-4c286cf9cb26",
+        "email": "Logan.Kris64@hotmail.com",
+        "firstName": "Alford",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68941680",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "bf329a85-3b9a-4514-884b-b48c3ca2d36b",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-09T20:41:41.366Z",
+        "updated_at": "2023-08-10T02:25:26.348Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4ec36c30-a675-4d09-933b-6e1f21f86910",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T04:28:44.675Z",
+        "updated_at": "2023-08-10T09:02:33.176Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7cc4973d-28c4-40f4-8926-926507cdb0d4",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-10T09:40:35.492Z",
+        "updated_at": "2023-08-09T22:26:04.362Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "66444d38-b156-42dc-af52-ec411abdb2b5",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-09T16:43:53.065Z",
+        "updated_at": "2023-08-10T03:41:32.925Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e281bbe2-646e-4384-9adf-9e01c8be1715",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-09T12:20:33.167Z",
+        "updated_at": "2023-08-09T18:25:23.668Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "144bc3c8-c297-49ff-878c-3c8efcb26716",
+        "usage_date": "2023-08-10T01:54:48.397Z",
+        "usage_time": "2023-08-09T14:44:09.662Z",
+        "created_at": "2023-08-09T17:25:59.081Z",
+        "updated_at": "2023-08-10T10:52:58.256Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e281bbe2-646e-4384-9adf-9e01c8be1715"
+      },
+      {
+        "id": "75bd67b8-269f-4c12-bc85-2a47bf8eee18",
+        "usage_date": "2023-08-10T02:34:52.626Z",
+        "usage_time": "2023-08-09T13:20:12.411Z",
+        "created_at": "2023-08-09T13:09:16.656Z",
+        "updated_at": "2023-08-09T22:59:02.958Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4ec36c30-a675-4d09-933b-6e1f21f86910"
+      },
+      {
+        "id": "a7ff41c4-f0bb-4519-8cb8-0d9711508962",
+        "usage_date": "2023-08-10T08:28:44.329Z",
+        "usage_time": "2023-08-10T02:10:46.221Z",
+        "created_at": "2023-08-09T17:57:37.621Z",
+        "updated_at": "2023-08-10T08:19:15.225Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4ec36c30-a675-4d09-933b-6e1f21f86910"
+      },
+      {
+        "id": "359b0618-e95c-4412-8d43-bda509a8005c",
+        "usage_date": "2023-08-09T20:41:18.479Z",
+        "usage_time": "2023-08-09T14:44:28.169Z",
+        "created_at": "2023-08-10T05:26:44.518Z",
+        "updated_at": "2023-08-10T09:19:28.986Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "66444d38-b156-42dc-af52-ec411abdb2b5"
+      },
+      {
+        "id": "b2a3a74a-bea9-4dee-ad2f-0848ab54940f",
+        "usage_date": "2023-08-10T00:04:28.878Z",
+        "usage_time": "2023-08-10T11:00:06.621Z",
+        "created_at": "2023-08-10T12:11:45.672Z",
+        "updated_at": "2023-08-10T02:02:58.341Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7cc4973d-28c4-40f4-8926-926507cdb0d4"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "629554c2-90e0-4805-beaa-d0c60912111c",
+        "start_time": "2023-08-09T23:27:43.027Z",
+        "end_time": "2023-08-10T09:02:39.249Z",
+        "created_at": "2023-08-09T22:52:19.195Z",
+        "updated_at": "2023-08-10T01:08:02.720Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "66444d38-b156-42dc-af52-ec411abdb2b5"
+      },
+      {
+        "id": "bb8ed0bc-c6da-4634-a663-778688a02592",
+        "start_time": "2023-08-09T15:47:26.533Z",
+        "end_time": "2023-08-09T12:27:56.127Z",
+        "created_at": "2023-08-10T04:34:19.690Z",
+        "updated_at": "2023-08-10T07:21:10.720Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "e281bbe2-646e-4384-9adf-9e01c8be1715"
+      },
+      {
+        "id": "715c5525-95c3-45ba-badb-d5cbb610f5f0",
+        "start_time": "2023-08-09T21:05:50.418Z",
+        "end_time": "2023-08-09T18:03:06.367Z",
+        "created_at": "2023-08-09T21:53:15.253Z",
+        "updated_at": "2023-08-10T09:57:15.144Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "4ec36c30-a675-4d09-933b-6e1f21f86910"
+      },
+      {
+        "id": "bd97bcff-c486-4210-a3a2-5a595eb647c1",
+        "start_time": "2023-08-10T05:43:53.790Z",
+        "end_time": "2023-08-09T17:28:26.289Z",
+        "created_at": "2023-08-09T16:04:14.095Z",
+        "updated_at": "2023-08-10T10:17:02.379Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "bf329a85-3b9a-4514-884b-b48c3ca2d36b"
+      },
+      {
+        "id": "17091c6e-b354-4af2-981c-0436a516b98e",
+        "start_time": "2023-08-10T06:40:57.850Z",
+        "end_time": "2023-08-10T05:23:02.048Z",
+        "created_at": "2023-08-10T06:12:45.563Z",
+        "updated_at": "2023-08-10T10:11:45.644Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7cc4973d-28c4-40f4-8926-926507cdb0d4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1848d29d-60b7-43fc-8db5-1d5a6138096e",
+        "email": "Amina_Reilly66@hotmail.com",
+        "firstName": "Gideon",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98286462",
+        "tenantId": null
+      },
+      {
+        "reference": "945c4b92-4d64-41a5-8eab-3ea229b9712d",
+        "email": "Breanne67@hotmail.com",
+        "firstName": "Declan",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66733525",
+        "tenantId": null
+      },
+      {
+        "reference": "e6286285-65c6-4288-a559-498fee81dd16",
+        "email": "Rhett_Kunze-Feil@gmail.com",
+        "firstName": "Abe",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/254.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1a2b329-2275-4c9a-9225-62b3b8aeba2f",
+        "email": "Lavada33@hotmail.com",
+        "firstName": "Dolly",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "930ab3e2-9b38-4be3-a2dc-617dedd1646a",
+        "email": "Jazmyn_Hilll84@yahoo.com",
+        "firstName": "Orland",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "67fb936e-158f-44a3-8f27-c23b257fe7b8",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-10T00:57:51.094Z",
+        "updated_at": "2023-08-10T01:10:28.806Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0563d94d-a8b2-4a4b-b21c-bf71dbca2119",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T06:39:34.279Z",
+        "updated_at": "2023-08-10T03:20:34.139Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "698a8cae-fd1d-4d44-ba69-769fb0bd2ee4",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-10T11:28:05.932Z",
+        "updated_at": "2023-08-09T21:31:46.584Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "72f2b8ee-46e5-4501-9b19-b1e3ab91a70a",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-09T15:58:36.850Z",
+        "updated_at": "2023-08-10T04:00:40.234Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "81dcc4c8-0ada-4cbd-bb13-f9f00297f58f",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-09T20:10:31.334Z",
+        "updated_at": "2023-08-10T00:59:10.389Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "7c4a9203-2fd7-472f-9534-c38b8647d0df",
+        "usage_date": "2023-08-10T09:41:59.072Z",
+        "usage_time": "2023-08-09T13:27:39.954Z",
+        "created_at": "2023-08-10T06:13:36.638Z",
+        "updated_at": "2023-08-10T02:39:17.613Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "81dcc4c8-0ada-4cbd-bb13-f9f00297f58f"
+      },
+      {
+        "id": "7a413442-d9b8-4299-b29f-1a0222f33e6b",
+        "usage_date": "2023-08-09T17:56:21.700Z",
+        "usage_time": "2023-08-10T12:13:50.531Z",
+        "created_at": "2023-08-10T01:05:00.207Z",
+        "updated_at": "2023-08-10T07:08:03.856Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "698a8cae-fd1d-4d44-ba69-769fb0bd2ee4"
+      },
+      {
+        "id": "ee469120-dda1-4e3b-9e60-0f2ccc2c5f6e",
+        "usage_date": "2023-08-10T03:10:51.520Z",
+        "usage_time": "2023-08-09T15:34:32.159Z",
+        "created_at": "2023-08-09T12:58:11.056Z",
+        "updated_at": "2023-08-10T05:10:06.405Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "698a8cae-fd1d-4d44-ba69-769fb0bd2ee4"
+      },
+      {
+        "id": "5a6b9f98-1097-495c-8396-75669eaf156d",
+        "usage_date": "2023-08-09T17:29:46.031Z",
+        "usage_time": "2023-08-10T05:23:58.644Z",
+        "created_at": "2023-08-10T07:44:14.873Z",
+        "updated_at": "2023-08-10T01:05:25.138Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "72f2b8ee-46e5-4501-9b19-b1e3ab91a70a"
+      },
+      {
+        "id": "1d3e532d-ab83-4e19-bff4-d34a84553818",
+        "usage_date": "2023-08-09T22:19:59.712Z",
+        "usage_time": "2023-08-10T03:46:21.679Z",
+        "created_at": "2023-08-09T13:50:59.579Z",
+        "updated_at": "2023-08-10T01:55:19.679Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0563d94d-a8b2-4a4b-b21c-bf71dbca2119"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e0d514eb-81bf-4503-b47a-e73379a17dfa",
+        "start_time": "2023-08-09T23:08:17.176Z",
+        "end_time": "2023-08-10T10:15:52.461Z",
+        "created_at": "2023-08-09T12:56:44.714Z",
+        "updated_at": "2023-08-10T11:12:43.377Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "67fb936e-158f-44a3-8f27-c23b257fe7b8"
+      },
+      {
+        "id": "482a6033-ca6e-4f30-b699-59ac8c0546bb",
+        "start_time": "2023-08-10T12:13:54.122Z",
+        "end_time": "2023-08-10T11:27:18.814Z",
+        "created_at": "2023-08-10T06:43:26.335Z",
+        "updated_at": "2023-08-09T14:19:42.254Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "67fb936e-158f-44a3-8f27-c23b257fe7b8"
+      },
+      {
+        "id": "8e9f397d-9413-440e-bc9a-a63245da302a",
+        "start_time": "2023-08-10T02:20:49.152Z",
+        "end_time": "2023-08-09T22:06:52.323Z",
+        "created_at": "2023-08-09T15:59:41.823Z",
+        "updated_at": "2023-08-09T18:51:50.310Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "0563d94d-a8b2-4a4b-b21c-bf71dbca2119"
+      },
+      {
+        "id": "cf556fd8-ad1e-46dd-bcc7-25b3def97a7a",
+        "start_time": "2023-08-09T21:14:17.880Z",
+        "end_time": "2023-08-09T20:49:44.185Z",
+        "created_at": "2023-08-09T23:59:13.503Z",
+        "updated_at": "2023-08-09T13:47:40.988Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "67fb936e-158f-44a3-8f27-c23b257fe7b8"
+      },
+      {
+        "id": "a89308bc-3e48-4c02-a478-fd60efee7dd0",
+        "start_time": "2023-08-10T08:31:32.216Z",
+        "end_time": "2023-08-09T21:13:27.559Z",
+        "created_at": "2023-08-09T14:41:01.686Z",
+        "updated_at": "2023-08-10T04:57:08.963Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "67fb936e-158f-44a3-8f27-c23b257fe7b8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c7f3e851-4d1f-4fc8-a09b-d36f07cd0b70",
+        "email": "Zetta.Hegmann@yahoo.com",
+        "firstName": "Liliane",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c60ad7a7-94a2-4493-a209-380745214146",
+        "email": "Jarod.Rolfson58@yahoo.com",
+        "firstName": "Enola",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed1f6fba-61b4-4e04-8604-4628c1d8627b",
+        "email": "Clarissa_Windler-Altenwerth38@gmail.com",
+        "firstName": "Citlalli",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/692439",
+        "tenantId": null
+      },
+      {
+        "reference": "fb2844b5-0db6-4c3a-bafd-320410ceccb5",
+        "email": "Akeem_Corkery41@gmail.com",
+        "firstName": "Royal",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/65.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "49d2faa4-c2d1-45e6-8b4f-7ed46a10b1d1",
+        "email": "Gianni.Keebler96@yahoo.com",
+        "firstName": "Ines",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4870638",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "9d0c4a01-6baf-41e3-a70d-77c3f6fd25e3",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-09T17:05:01.980Z",
+        "updated_at": "2023-08-09T17:49:15.830Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b70744a3-995c-4308-832a-d14db7f17f45",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-10T08:02:44.071Z",
+        "updated_at": "2023-08-10T03:21:09.774Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7836edf6-f81f-4cd3-a645-ba0ffb02a83a",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-10T08:54:06.549Z",
+        "updated_at": "2023-08-09T22:35:15.407Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a23be954-ab91-4426-a147-ad250b17dcac",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T02:12:04.641Z",
+        "updated_at": "2023-08-09T17:26:58.396Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9949a5c1-e782-4d21-8510-54bd2fae991b",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-09T16:29:25.781Z",
+        "updated_at": "2023-08-09T15:38:50.291Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "04f2d74f-7c60-4688-a8c5-899c9a4df3c7",
+        "usage_date": "2023-08-09T15:34:31.505Z",
+        "usage_time": "2023-08-09T12:35:08.556Z",
+        "created_at": "2023-08-10T08:44:52.607Z",
+        "updated_at": "2023-08-09T23:14:22.175Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9949a5c1-e782-4d21-8510-54bd2fae991b"
+      },
+      {
+        "id": "8f1d7646-9c31-4fdb-a4c0-4dac21baa2bd",
+        "usage_date": "2023-08-10T00:36:14.908Z",
+        "usage_time": "2023-08-10T11:47:11.955Z",
+        "created_at": "2023-08-10T09:13:59.226Z",
+        "updated_at": "2023-08-10T07:20:11.161Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d0c4a01-6baf-41e3-a70d-77c3f6fd25e3"
+      },
+      {
+        "id": "e57d5845-4152-40bf-b493-7cbedd081e89",
+        "usage_date": "2023-08-10T09:01:03.885Z",
+        "usage_time": "2023-08-10T02:49:18.962Z",
+        "created_at": "2023-08-09T18:15:21.973Z",
+        "updated_at": "2023-08-09T19:39:12.605Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7836edf6-f81f-4cd3-a645-ba0ffb02a83a"
+      },
+      {
+        "id": "1f095f35-49be-4c13-9a08-6fc02e322aa7",
+        "usage_date": "2023-08-10T00:02:16.868Z",
+        "usage_time": "2023-08-10T09:25:34.262Z",
+        "created_at": "2023-08-10T05:28:25.100Z",
+        "updated_at": "2023-08-09T19:46:08.648Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a23be954-ab91-4426-a147-ad250b17dcac"
+      },
+      {
+        "id": "4f60e2a0-5c8e-4344-8369-aac868597311",
+        "usage_date": "2023-08-10T03:31:09.478Z",
+        "usage_time": "2023-08-10T11:25:03.790Z",
+        "created_at": "2023-08-10T03:58:25.464Z",
+        "updated_at": "2023-08-09T22:45:52.125Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9d0c4a01-6baf-41e3-a70d-77c3f6fd25e3"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "53ef8710-4991-47c2-b613-7c37a526aae5",
+        "start_time": "2023-08-10T11:03:22.332Z",
+        "end_time": "2023-08-10T08:39:57.996Z",
+        "created_at": "2023-08-09T20:08:16.933Z",
+        "updated_at": "2023-08-09T16:02:13.530Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9949a5c1-e782-4d21-8510-54bd2fae991b"
+      },
+      {
+        "id": "20d4098b-3f0a-4111-b99b-da623b510ca6",
+        "start_time": "2023-08-10T11:29:51.317Z",
+        "end_time": "2023-08-10T09:19:55.543Z",
+        "created_at": "2023-08-09T16:52:51.181Z",
+        "updated_at": "2023-08-10T01:11:24.312Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7836edf6-f81f-4cd3-a645-ba0ffb02a83a"
+      },
+      {
+        "id": "bda5316b-d696-472b-b7aa-312adfd82ea5",
+        "start_time": "2023-08-09T18:15:54.361Z",
+        "end_time": "2023-08-10T01:32:56.163Z",
+        "created_at": "2023-08-10T07:49:00.317Z",
+        "updated_at": "2023-08-09T23:24:41.716Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "a23be954-ab91-4426-a147-ad250b17dcac"
+      },
+      {
+        "id": "0ba2cd7c-a152-4ccc-bdb9-e5a7403c5ac7",
+        "start_time": "2023-08-10T11:43:36.202Z",
+        "end_time": "2023-08-09T14:50:01.268Z",
+        "created_at": "2023-08-10T03:52:42.039Z",
+        "updated_at": "2023-08-09T22:58:04.050Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "7836edf6-f81f-4cd3-a645-ba0ffb02a83a"
+      },
+      {
+        "id": "2a331e03-1941-419b-8d92-8a2c55cd0b97",
+        "start_time": "2023-08-10T02:57:08.994Z",
+        "end_time": "2023-08-10T08:18:26.317Z",
+        "created_at": "2023-08-09T19:14:29.780Z",
+        "updated_at": "2023-08-09T22:00:52.179Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "9949a5c1-e782-4d21-8510-54bd2fae991b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "73198583-8ef4-42b3-a732-e8ad3474ce96",
+        "email": "Mafalda.Hettinger@gmail.com",
+        "firstName": "Kelli",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/31.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9112e126-9ca3-496e-9d4f-030f37e56ad4",
+        "email": "Waylon26@hotmail.com",
+        "firstName": "Vito",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/303.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c510ecec-9418-4da5-8d9d-8ec27f891a73",
+        "email": "Allene77@yahoo.com",
+        "firstName": "Lera",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de9ea6df-2622-4dde-9e17-8f9deb9f4abd",
+        "email": "Angelina.Kub@hotmail.com",
+        "firstName": "Immanuel",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18178744",
+        "tenantId": null
+      },
+      {
+        "reference": "247ed6a0-d39d-4655-ab1d-65b0a1f2c253",
+        "email": "Jacey_Hermann@gmail.com",
+        "firstName": "Sharon",
+        "lastName": "Grimes-Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58628709",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vehicle": [
+      {
+        "id": "85100d24-6211-4e3f-bf72-78069d52f833",
+        "vehicle_info": "Toyota Camry",
+        "created_at": "2023-08-10T02:11:07.077Z",
+        "updated_at": "2023-08-10T01:55:32.547Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "78c6d8be-0ba0-483b-be46-287ee9d404ca",
+        "vehicle_info": "Honda Civic",
+        "created_at": "2023-08-09T22:50:07.146Z",
+        "updated_at": "2023-08-09T12:50:47.302Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1fba121e-95e2-4272-91a7-205a030d9e9a",
+        "vehicle_info": "Ford Mustang",
+        "created_at": "2023-08-09T13:39:31.644Z",
+        "updated_at": "2023-08-10T08:45:37.686Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "608d7ba4-7391-4ad1-adf9-328c3c7ae74e",
+        "vehicle_info": "Chevrolet Silverado",
+        "created_at": "2023-08-10T10:20:34.201Z",
+        "updated_at": "2023-08-10T09:41:24.401Z",
+        "owner_id": "user_entity_pk"
+      },
+      {
+        "id": "136a828f-57d3-4e4d-a02b-8c0080bab1ff",
+        "vehicle_info": "BMW X5",
+        "created_at": "2023-08-10T04:03:39.380Z",
+        "updated_at": "2023-08-10T10:01:27.071Z",
+        "owner_id": "user_entity_pk"
+      }
+    ],
+    "usage": [
+      {
+        "id": "39599e26-90b1-4b15-a856-c4a02b6c2334",
+        "usage_date": "2023-08-10T12:13:36.214Z",
+        "usage_time": "2023-08-09T21:13:21.086Z",
+        "created_at": "2023-08-09T20:42:02.769Z",
+        "updated_at": "2023-08-10T05:55:32.672Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "136a828f-57d3-4e4d-a02b-8c0080bab1ff"
+      },
+      {
+        "id": "eb5e5d5f-3dfb-4d49-a0fa-54a380af71a1",
+        "usage_date": "2023-08-09T14:33:30.301Z",
+        "usage_time": "2023-08-09T23:11:05.516Z",
+        "created_at": "2023-08-10T11:01:22.936Z",
+        "updated_at": "2023-08-10T09:27:13.190Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "85100d24-6211-4e3f-bf72-78069d52f833"
+      },
+      {
+        "id": "b3e94d9b-46a2-4c14-b13d-144bf56a12e3",
+        "usage_date": "2023-08-09T15:14:09.827Z",
+        "usage_time": "2023-08-09T18:09:23.386Z",
+        "created_at": "2023-08-09T20:15:54.364Z",
+        "updated_at": "2023-08-10T03:05:59.805Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1fba121e-95e2-4272-91a7-205a030d9e9a"
+      },
+      {
+        "id": "b825f2b8-2235-40a3-b95d-29528aaa36cd",
+        "usage_date": "2023-08-09T12:51:14.756Z",
+        "usage_time": "2023-08-10T00:06:31.747Z",
+        "created_at": "2023-08-09T21:23:29.581Z",
+        "updated_at": "2023-08-10T03:26:52.573Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "78c6d8be-0ba0-483b-be46-287ee9d404ca"
+      },
+      {
+        "id": "58358578-6b14-44e4-bae6-73062dbfe67d",
+        "usage_date": "2023-08-10T04:12:13.324Z",
+        "usage_time": "2023-08-10T11:24:43.181Z",
+        "created_at": "2023-08-09T20:27:37.828Z",
+        "updated_at": "2023-08-09T14:05:22.558Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "78c6d8be-0ba0-483b-be46-287ee9d404ca"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "4a126da5-1f51-409f-8519-c0db999da13a",
+        "start_time": "2023-08-09T17:28:31.522Z",
+        "end_time": "2023-08-10T04:29:14.422Z",
+        "created_at": "2023-08-10T08:55:02.402Z",
+        "updated_at": "2023-08-10T10:50:15.748Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "85100d24-6211-4e3f-bf72-78069d52f833"
+      },
+      {
+        "id": "a1adfe25-7a04-44ca-953f-2026203e1599",
+        "start_time": "2023-08-09T15:22:02.618Z",
+        "end_time": "2023-08-09T19:21:15.858Z",
+        "created_at": "2023-08-09T16:31:08.880Z",
+        "updated_at": "2023-08-10T02:44:19.682Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "608d7ba4-7391-4ad1-adf9-328c3c7ae74e"
+      },
+      {
+        "id": "68b8c462-c0e5-4273-83be-785f1edd73de",
+        "start_time": "2023-08-10T11:23:33.056Z",
+        "end_time": "2023-08-09T23:29:48.957Z",
+        "created_at": "2023-08-10T05:50:19.023Z",
+        "updated_at": "2023-08-10T09:10:36.683Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "78c6d8be-0ba0-483b-be46-287ee9d404ca"
+      },
+      {
+        "id": "75709cd7-993a-459d-af30-9a73be774bab",
+        "start_time": "2023-08-10T10:49:31.801Z",
+        "end_time": "2023-08-10T08:36:58.513Z",
+        "created_at": "2023-08-10T06:55:32.727Z",
+        "updated_at": "2023-08-10T01:21:52.490Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "1fba121e-95e2-4272-91a7-205a030d9e9a"
+      },
+      {
+        "id": "b88cfb58-fcb5-42ef-8ba7-083c82e31667",
+        "start_time": "2023-08-10T09:39:08.065Z",
+        "end_time": "2023-08-09T16:43:04.723Z",
+        "created_at": "2023-08-09T20:02:08.151Z",
+        "updated_at": "2023-08-09T21:30:45.250Z",
+        "user_id": "user_entity_pk",
+        "vehicle_id": "78c6d8be-0ba0-483b-be46-287ee9d404ca"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3247bb07-8428-479b-925f-19595e7cad7f",
+        "email": "Bertha_Gerhold55@hotmail.com",
+        "firstName": "Lester",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68866539",
+        "tenantId": null
+      },
+      {
+        "reference": "aa21b278-4d6d-4ef6-acd6-85290b102f0d",
+        "email": "Archibald.Hettinger@hotmail.com",
+        "firstName": "Orlando",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "405cbc90-c0ae-4963-b69b-5ae63a258a1e",
+        "email": "Marian71@hotmail.com",
+        "firstName": "Delfina",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/7.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54d32f62-5412-4788-84e2-422a4982a6d0",
+        "email": "Alysson.Jerde62@yahoo.com",
+        "firstName": "Mathew",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56a0cc69-6a82-4aee-b91c-537aeede2333",
+        "email": "Emmitt.Yost@yahoo.com",
+        "firstName": "Felton",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87162141",
+        "tenantId": null
+      }
+    ]
+  }
+]
